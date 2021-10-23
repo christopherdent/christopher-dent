@@ -44,13 +44,13 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              CHRISTOPHER DENT
+             <h4> CJD </h4> 
             </NavbarBrand>
   
           </div>
       
             <Nav navbar>
-     
+            
               <NavItem>
               <NavLink href="/">
                   <p>Projects</p>
@@ -69,7 +69,7 @@ function IndexNavbar() {
                   <p>Blog</p>
                 </NavLink>
               </NavItem>
-   
+              
             </Nav>
         
         </Container>
