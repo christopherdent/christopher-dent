@@ -2,9 +2,7 @@ import React from "react";
 
 // reactstrap components
 import {
-  Container,
-  Row,
-  Col,
+
   Carousel,
   CarouselItem,
   CarouselIndicators,
@@ -14,17 +12,18 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg").default,
+    src: require("assets/img/gears.gif").default,
     altText: "My Coding Projects",
     caption: "My Coding Projects",
+    
   },
   {
-    src: require("assets/img/bg3.jpg").default,
+    src: require("assets/img/spaceman3.gif").default,
     altText: "About Christopher",
     caption: "About Christopher",
   },
   {
-    src: require("assets/img/bg4.jpg").default,
+    src: require("assets/img/books.gif").default,
     altText: "My Blog",
     caption: "My Blog",
   },

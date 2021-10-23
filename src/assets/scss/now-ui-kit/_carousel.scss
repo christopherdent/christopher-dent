@@ -2,7 +2,7 @@
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active{
-    display: flex;
+    display: block;
    
 }
 
@@ -18,10 +18,9 @@
 
     .card {
         max-width: 650px;
-        
         margin: 60px auto;
         display: block;
-
+       
         
     
       
@@ -31,3 +30,12 @@
     
 }
  
+#carousel > div > div > div.carousel-item.active > img {
+    width:850px;
+    height:600px;
+}
+
+#carousel > div > div > div.carousel-item > img {
+    width:850px;
+    height:600px;
+}
