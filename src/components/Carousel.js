@@ -12,9 +12,10 @@ import {
 
 const items = [
   {
-    src: require("assets/img/gears.gif").default,
+    src: require("assets/img/more-gears.gif").default,
     altText: "My Coding Projects",
     caption: "My Coding Projects",
+   
     
   },
   {

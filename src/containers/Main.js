@@ -34,7 +34,7 @@ function Main() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/portfolio-background.png").default + ")",
+              "url(" + require("assets/img/newsky.jpg").default + ")",
           }}
           ref={page}
         >
