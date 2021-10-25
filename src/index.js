@@ -25,26 +25,13 @@ import "assets/scss/now-ui-kit.scss?v=1.5.0";
  
  
 // pages for this kit
-import Index from "views/Index.js";
+import App from "views/App.js";
   
-import Projects from "containers/Projects.js";
+
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Switch>
-        <Route path="/index" render={(props) => <Index {...props} />} />
-    
-   
-        <Route
-          path="/projects"
-          render={(props) => <Projects {...props} />}
-        />
-      
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
-      </Switch>
-    </Switch>
-  </BrowserRouter>,
+<App />,
   document.getElementById("root")
 );
+
+

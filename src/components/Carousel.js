@@ -1,29 +1,34 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
-
+  UncontrolledCarousel,
   Carousel,
   CarouselItem,
   CarouselIndicators,
+  NavItem,
 } from "reactstrap";
 
 // core components
 
 const items = [
   {
+    href: "/projects",
     src: require("assets/img/more-gears.gif").default,
     altText: "My Coding Projects",
     caption: "My Coding Projects",
-   
+    
+    
     
   },
   {
+    href: "/projects",
     src: require("assets/img/spaceman3.gif").default,
     altText: "About Christopher",
     caption: "About Christopher",
   },
   {
+    href: "/projects",
     src: require("assets/img/books.gif").default,
     altText: "My Blog",
     caption: "My Blog",
@@ -69,19 +74,27 @@ function CarouselSection() {
                   onClickHandler={goToIndex}
                 />
                 {items.map((item) => {
+
                   return (
+                              
+                    
                     <CarouselItem
                       onExiting={onExiting}
                       onExited={onExited}
                       key={item.src}
                     >
-                      <img src={item.src} alt={item.altText} />
-                      
+                     <a href = {item.href}>
+                    
+                      <img src={item.src} alt={item.altText} width="850" height="600" />
+                    
+                    </a>
 
                       <div className="carousel-caption d-none d-md-block">
                         <h5>{item.caption}</h5>
                       </div>
+                       
                     </CarouselItem>
+             
                   );
                 })}
                 <a

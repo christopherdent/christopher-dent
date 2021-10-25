@@ -2,7 +2,7 @@
 
 import React from "react";
 import Carousel from "components/Carousel.js";
-
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -46,11 +46,10 @@ function Main() {
           <div>
             <h1 className="h1-seo">christopher james dent</h1>
           </div>
-
-
+       
           <Carousel />
-   
-        </Container>
+      
+          </Container>
 
         
       </div>
