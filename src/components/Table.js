@@ -7,9 +7,11 @@ function TableSection() {
   return (
 <Table>
     <tbody>
+     <a href = "/projects">
      <tr>
       <td>Projects</td>
      </tr>
+     </a>
      <tr>
       <td>Blog</td>
      </tr>
