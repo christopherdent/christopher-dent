@@ -28,7 +28,7 @@ const items = [
     caption: "About Christopher",
   },
   {
-    href: "/projects",
+    href: "https://christopher-dent.medium.com/",
     src: require("assets/img/books.gif").default,
     altText: "My Blog",
     caption: "My Blog",

@@ -64,7 +64,7 @@ function IndexNavbar() {
               </NavItem>
           
               <NavItem>
-                <NavLink href="/">
+                <NavLink href="https://christopher-dent.medium.com/">
                   <p>Blog</p>
                 </NavLink>
               </NavItem>
