@@ -13,17 +13,24 @@
         display: flex; 
         color: #fff; 
         justify-content: center;
-         
+        align-items: center;
+        width: 100% ;
+    }
+  
         td {
             display: flex; 
             font-weight: 400;
             font-size: 300%;
             justify-content: center;
+            width: 60vw;
+        }
+
+        a {
             color: #fff !important;
+            text-decoration: none;
         }
         
-        }
-  
+        
 
   }
  
