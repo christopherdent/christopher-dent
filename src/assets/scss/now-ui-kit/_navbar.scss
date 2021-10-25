@@ -1,9 +1,21 @@
+
+
+
+
+
 .navbar{
     padding-top: $navbar-padding-base;
     padding-bottom: $navbar-padding-base;
     min-height: 53px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+   
+   
+    @media only screen and (max-width: 768px) {
+        display: none;
+     }
+
+        
 
     a{
         vertical-align: middle;
@@ -17,8 +29,8 @@
         display: inline-block;
         margin: 0;
         line-height: 21px;
-        font-weight: inherit;
-        font-size: inherit;
+        // font-weight: inherit;
+        // font-size: inherit;
     }
 
     .navbar-nav{
@@ -198,3 +210,5 @@
 .bg-white{
     background-color: $white-color !important;
 }
+
+ 

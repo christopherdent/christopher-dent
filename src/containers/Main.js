@@ -2,6 +2,8 @@
 
 import React from "react";
 import Carousel from "components/Carousel.js";
+
+import Table from "components/Table.js";
 import { Link } from "react-router-dom";
 
 // reactstrap components
@@ -48,13 +50,17 @@ function Main() {
           </div>
        
           <Carousel />
+        
+        
+          <br /><br /><br />
+
+ 
       
           </Container>
-
-        
+          <Table />
       </div>
 
-      
+    
 
       
     </>

@@ -1,17 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 // reactstrap components
-import {
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  UncontrolledTooltip,
-} from "reactstrap";
+import { Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+
 
 function IndexNavbar() {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
+
+
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -48,7 +47,7 @@ function IndexNavbar() {
             </NavbarBrand>
   
           </div>
-      
+           
             <Nav navbar>
             
               <NavItem>
@@ -71,7 +70,7 @@ function IndexNavbar() {
               </NavItem>
               
             </Nav>
-        
+       
         </Container>
         <br/>
       
