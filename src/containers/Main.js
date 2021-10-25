@@ -53,11 +53,10 @@ function Main() {
         
         
           <br /><br /><br />
-
- 
-      
+    
           </Container>
           <Table />
+
       </div>
 
     
