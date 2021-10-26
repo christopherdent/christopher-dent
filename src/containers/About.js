@@ -1,18 +1,22 @@
 /*eslint-disable*/
 
-import React from "react";
+import React, { useState } from 'react';
 import Carousel from "components/Carousel.js";
 
 import Table from "components/Table.js";
 import { Link } from "react-router-dom";
 
 // reactstrap components
-import { Container, Jumbotron, Media } from "reactstrap";
+import { Button, Container, Jumbotron, Media, Collapse } from "reactstrap";
 
 
 
 
 function About() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
   let page = React.createRef();
 
   React.useEffect(() => {
@@ -49,6 +53,11 @@ function About() {
             <h1 className="h1-seo">about me</h1>
           </div>
 
+
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>The Life Story</Button>
+      <Collapse isOpen={isOpen}>
+
+
           <Media>
             <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/asperida.jpg" alt="Generic placeholder image" id="about-img" />
                 <div class="media-body">
@@ -82,7 +91,7 @@ function About() {
                 <div class="media-body">
                 <br/><br/>
                      <p>
-                     Fast forward to 2018.  By then, I’d moved to Washington, DC where I got involved with an awesome scientific association.  After a few years of that I took a three year ‘sabbatical’ back in the UK (Scotland this time) where I got to work at the Royal Bank of Scotland and the Edinburgh Council – both incredible experiences - back to DC again and finally here, in Saint Augustine, Florida with my incredible wife Angelica, where I still work remotely for a DC based scientific association.  I’ve done well and had some great adventures.  But they’re not over yet.  
+                     Fast forward to 2018.  By then, I’d moved to Washington, DC where I began supporting technical projects for awesome scientific association.  After a few years of that I took a moved back to the UK (Scotland this time) where I got to work at the Royal Bank of Scotland and the Edinburgh Council, gaining valuable skills and certifications in project management working for the Royal Bank of Scotland and then the City of Edinburgh.  Three years later I moved back to DC again and finally here, to historic Saint Augustine, Florida and got married to the love of my life, Angelica.  Today I work remotely for that same DC based scientific association, now running programs and gaining more skills in project and association management.  I’ve done well and had some great adventures.  But they’re not over yet.  
                      </p>
                      </div>
             </Media>
@@ -99,7 +108,7 @@ function About() {
             </Media>
               
         
-
+</Collapse>
     
     
           </Container>
