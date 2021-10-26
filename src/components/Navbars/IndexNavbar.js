@@ -58,7 +58,7 @@ function IndexNavbar() {
               </NavItem>
               
               <NavItem>
-                <NavLink href="/">
+                <NavLink href="/about">
                   <p>About</p>
                 </NavLink>
               </NavItem>

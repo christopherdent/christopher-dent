@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Main from "containers/Main.js";
 import Projects from "containers/Projects.js";
+import About from "containers/About.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 
@@ -33,7 +34,7 @@ function App() {
           <Switch>
             <Route path="/index" render={(props) => <Main {...props} />} />
             <Route path="/projects" render={(props) => <Projects {...props} />} />
-         
+            <Route path="/about" render={(props) => <About {...props} />} />
             <Redirect to="/index" />
           <Redirect from="/" to="/index" />
         </Switch>

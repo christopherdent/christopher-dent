@@ -22,7 +22,7 @@ const items = [
     
   },
   {
-    href: "/projects",
+    href: "/about",
     src: require("assets/img/spaceman3.gif").default,
     altText: "About Christopher",
     caption: "About Christopher",

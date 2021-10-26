@@ -122,40 +122,56 @@ function Projects() {
                 </div>
               </Col>
               <TabContent className="gallery" activeTab={"pills" + pills}>
+
+
                 <TabPane tabId="pills1">
+                  
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
+                      <p>Dinofinder 2020</p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg"
+                        
                         ></img>
-                        <p>Dinofinder 2020</p>
+                        <p>Association Volunteer Manager</p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://img1.wsimg.com/isteam/stock/7903/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
                         ></img>
-                        <p>Association Volunteer Manager</p>
+                        
                       </Col>
                       <Col md="6">
+                      <p>Exoplanet Explorer</p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
                         ></img>
-                        <p>Exoplanet Explorer</p>
+                        <p>Battle, Ships!</p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
                         ></img>
-                        <p>Battle, Ships!</p>
+                        
                       </Col>
                     </Row>
                   </Col>
                 </TabPane>
+
+
+
+
+
+
+
+
+
+
                 <TabPane tabId="pills2">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
