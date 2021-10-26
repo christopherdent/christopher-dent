@@ -8,6 +8,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Main from "containers/Main.js";
 import Projects from "containers/Projects.js";
 import About from "containers/About.js";
+import Blog from "containers/Blog.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/index" render={(props) => <Main {...props} />} />
             <Route path="/projects" render={(props) => <Projects {...props} />} />
             <Route path="/about" render={(props) => <About {...props} />} />
+            <Route path="/blog" render={(props) => <Blog {...props} />} />
             <Redirect to="/index" />
           <Redirect from="/" to="/index" />
         </Switch>
