@@ -66,6 +66,7 @@ function About() {
                 </p>
               </div>
             </Media>
+            <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/asperida.jpg" alt="Generic placeholder image" id="about-img" id="mobile"/>
             <br/><br/><br/>
             <Media>
             <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/house.jpg" alt="Generic placeholder image" id="about-img" />
@@ -75,6 +76,7 @@ function About() {
                 </p>
             </div>
             </Media>
+            <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/house.jpg" alt="Generic placeholder image" id="about-img" id="mobile"/>
             <br/><br/><br/>
             <Media>
             <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/castle.jpg" alt="Generic placeholder image" id="about-img" />
@@ -85,6 +87,7 @@ function About() {
                      </p>
                      </div>
             </Media>
+            <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/castle.jpg" alt="Generic placeholder image" id="about-img" id="mobile"/>
             <br/><br/><br/>
             <Media>
             <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/chrisangie.jpg" alt="Generic placeholder image" id="about-img" />
@@ -95,6 +98,7 @@ function About() {
                      </p>
                      </div>
             </Media>
+            <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/chrisangie.jpg" alt="Generic placeholder image" id="about-img" id="mobile"/>
             <br/><br/><br/>
                      <Media>
             <img class="align-self-center mr-3"  src="https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e4742m73cffv1rajt9hc73ckz6e7v8ep1mfs29v7764&rid=giphy.gif&ct=g" alt="Generic placeholder image" id="about-img" />
@@ -106,7 +110,7 @@ function About() {
                     </p>
                     </div>
             </Media>
-              
+            <img class="align-self-center mr-3"  src="https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e4742m73cffv1rajt9hc73ckz6e7v8ep1mfs29v7764&rid=giphy.gif&ct=g" alt="Generic placeholder image" id="about-img" id="mobile"/>
         
 </Collapse>
     

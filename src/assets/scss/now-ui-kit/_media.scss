@@ -1,6 +1,6 @@
 #about-img{
-    height: 300px;
-    width: 300px; 
+    max-height: 300px;
+    max-width: 300px; 
 }
 
 
@@ -13,3 +13,29 @@
     left: 50%;
    
   }
+
+  #mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .media {
+        overflow: scroll;
+    }
+
+    #about-img{
+        display: none;
+        max-height: 50px;
+        max-width: 50px; 
+    }
+
+    #mobile {
+        display: inline-block;
+    }
+
+
+
+  }
+ 
