@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/christopher-dent/static/css/main.ca9b6cdb.chunk.css",
-    "main.js": "/christopher-dent/static/js/main.b594515d.chunk.js",
-    "main.js.map": "/christopher-dent/static/js/main.b594515d.chunk.js.map",
+    "main.css": "/christopher-dent/static/css/main.aae3048d.chunk.css",
+    "main.js": "/christopher-dent/static/js/main.d720f503.chunk.js",
+    "main.js.map": "/christopher-dent/static/js/main.d720f503.chunk.js.map",
     "runtime-main.js": "/christopher-dent/static/js/runtime-main.8594007a.js",
     "runtime-main.js.map": "/christopher-dent/static/js/runtime-main.8594007a.js.map",
     "static/js/2.199907e0.chunk.js": "/christopher-dent/static/js/2.199907e0.chunk.js",
     "static/js/2.199907e0.chunk.js.map": "/christopher-dent/static/js/2.199907e0.chunk.js.map",
     "index.html": "/christopher-dent/index.html",
-    "static/css/main.ca9b6cdb.chunk.css.map": "/christopher-dent/static/css/main.ca9b6cdb.chunk.css.map",
+    "static/css/main.aae3048d.chunk.css.map": "/christopher-dent/static/css/main.aae3048d.chunk.css.map",
     "static/js/2.199907e0.chunk.js.LICENSE.txt": "/christopher-dent/static/js/2.199907e0.chunk.js.LICENSE.txt",
     "static/media/books.gif": "/christopher-dent/static/media/books.8318b5b2.gif",
     "static/media/more-gears.gif": "/christopher-dent/static/media/more-gears.5ee9367c.gif",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8594007a.js",
     "static/js/2.199907e0.chunk.js",
-    "static/css/main.ca9b6cdb.chunk.css",
-    "static/js/main.b594515d.chunk.js"
+    "static/css/main.aae3048d.chunk.css",
+    "static/js/main.d720f503.chunk.js"
   ]
 }
