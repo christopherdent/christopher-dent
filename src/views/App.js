@@ -1,10 +1,6 @@
 
 import React from "react";
-import ReactDOM from "react-dom";
-
-import { createBrowserHistory } from "history";
-import { BrowserRouter as Router } from 'react-router-dom'
-import { Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -17,7 +13,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 
 
-function App() {
+class App extends React.Component {
   // React.useEffect(() => {
   //   document.body.classList.add("index-page");
   //   document.body.classList.add("sidebar-collapse");
@@ -29,23 +25,30 @@ function App() {
   //     document.body.classList.remove("sidebar-collapse");
   //   };
   // });
+
+  render() {
   return (
    
 <Router basename='{process.env.PUBLIC_URL}'>
-  <IndexNavbar />
-   <div className="wrapper">     
-    <Switch>
-      <Route exact path="/" component={Main} />
-      <Route exact path="/index" component={Main} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/blog" component={Blog} />
-    </Switch>
-   </div>
-  <DarkFooter />
-</Router>
+<IndexNavbar />  
+
+   <div className="wrapper">
+      
+        <Switch>
+
+            <Route exact path="/christopher-dent" component={Main} />
+            <Route exact path="/index" component={Main} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/blog" component={Blog} />
+      
+          </Switch>
+        </div>
+      <DarkFooter />
+    </Router>
   
-  );
+    );
+  }
 }
 
 export default App;
