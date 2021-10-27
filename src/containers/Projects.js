@@ -73,8 +73,6 @@ function Projects() {
           
         </div>
 
-
-
  
           <Container>
       
@@ -82,11 +80,8 @@ function Projects() {
             <h5 className="description">
               This page showcases my coding projects from Flatiron school and a few I have completed since graduating.  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
             </h5>
-
-
             <Row>
               <Col className="ml-auto mr-auto" md="6">
-                <h4 className="title text-center">PROJECTS</h4>
                 <div className="nav-align-center">
                   <Nav
                     className="nav-pills-info nav-pills-just-icons"
