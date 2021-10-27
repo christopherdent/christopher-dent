@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 import { createBrowserHistory } from "history";
 
-import { BrowserRouter, Route, Switch, Redirect, Router } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect, Router } from "react-router-dom";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -18,33 +18,32 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 var hist = createBrowserHistory();
 
 function App() {
-  React.useEffect(() => {
-    document.body.classList.add("index-page");
-    document.body.classList.add("sidebar-collapse");
-    document.documentElement.classList.remove("nav-open");
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
-    return function cleanup() {
-      document.body.classList.remove("index-page");
-      document.body.classList.remove("sidebar-collapse");
-    };
-  });
+  // React.useEffect(() => {
+  //   document.body.classList.add("index-page");
+  //   document.body.classList.add("sidebar-collapse");
+  //   document.documentElement.classList.remove("nav-open");
+  //   window.scrollTo(0, 0);
+  //   document.body.scrollTop = 0;
+  //   return function cleanup() {
+  //     document.body.classList.remove("index-page");
+  //     document.body.classList.remove("sidebar-collapse");
+  //   };
+  // });
   return (
-    <>
+   
+<HashRouter basename='/'>
   <IndexNavbar />
    <div className="wrapper">     
-   
     <Switch>
-      <Route exact path="/" component={Main} />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/blog" component={Blog} />
-      <Route exact path="/about" component={About} />
-     
     </Switch>
-   
-   <DarkFooter />
-  </div>
- </>
+   </div>
+  <DarkFooter />
+</HashRouter>
+  
   );
 }
 
