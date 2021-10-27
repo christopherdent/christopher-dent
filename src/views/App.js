@@ -14,6 +14,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 
 class App extends React.Component {
+
   // React.useEffect(() => {
   //   document.body.classList.add("index-page");
   //   document.body.classList.add("sidebar-collapse");
@@ -27,28 +28,27 @@ class App extends React.Component {
   // });
 
   render() {
-  return (
-   
-<Router basename='{process.env.PUBLIC_URL}'>
-<IndexNavbar />  
+    return (
+      <Router>
+        <IndexNavbar />  
 
-   <div className="wrapper">
+          <div className="wrapper">
       
-        <Switch>
+            <Switch>
 
-            <Route exact path="/christopher-dent" component={Main} />
-            <Route exact path="/index" component={Main} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/blog" component={Blog} />
+              <Route exact path="/christopher-dent" component={Main} />
+              <Route exact path="/index" component={Main} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/blog" component={Blog} />
       
-          </Switch>
-        </div>
-      <DarkFooter />
-    </Router>
-  
+            </Switch>
+          </div>
+        <DarkFooter />
+      </Router>
+ 
     );
-  }
-}
+  };
+};
 
 export default App;
