@@ -39,7 +39,7 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/"
+              href="/christopher-dent"
                
               id="navbar-brand"
             >

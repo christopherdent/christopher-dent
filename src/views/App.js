@@ -29,7 +29,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/christoper-dent">
         <div className='wrapper'>
         <IndexNavbar />  
 
@@ -38,10 +38,10 @@ class App extends React.Component {
             <Switch>
               <Route exact path='/' component={Main} />
               <Route exact path='/christopher-dent' component={Main} />
-              <Route exact path='/christopher-dent/index' component={Main} />
-              <Route exact path='/christopher-dent/about' component={About} />
-              <Route exact path='/christopher-dent/projects' component={Projects} />
-              <Route exact path='/christopher-dent/blog' component={Blog} />
+              <Route path='/christopher-dent/index' component={Main} />
+              <Route path='/christopher-dent/about' component={About} />
+              <Route path='/christopher-dent/projects' component={Projects} />
+              <Route path='/christopher-dent/blog' component={Blog} />
       
             </Switch>
           
