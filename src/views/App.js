@@ -3,8 +3,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { createBrowserHistory } from "history";
-
-import { HashRouter, Route, Switch, Redirect, Router } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Route, Switch } from "react-router-dom";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -15,7 +15,7 @@ import Blog from "containers/Blog.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 
-var hist = createBrowserHistory();
+
 
 function App() {
   // React.useEffect(() => {
@@ -31,18 +31,19 @@ function App() {
   // });
   return (
    
-<HashRouter basename='/'>
+<Router basename='{process.env.PUBLIC_URL}'>
   <IndexNavbar />
    <div className="wrapper">     
     <Switch>
       <Route exact path="/" component={Main} />
+      <Route exact path="/index" component={Main} />
       <Route path="/about" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/blog" component={Blog} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/blog" component={Blog} />
     </Switch>
    </div>
   <DarkFooter />
-</HashRouter>
+</Router>
   
   );
 }

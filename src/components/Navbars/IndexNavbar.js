@@ -39,8 +39,8 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/"
-              target="_blank"
+              href="/index"
+               
               id="navbar-brand"
             >
              <h4> CJD </h4> 
