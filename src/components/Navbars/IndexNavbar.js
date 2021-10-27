@@ -39,7 +39,7 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/index"
+              href="/"
                
               id="navbar-brand"
             >
@@ -51,20 +51,20 @@ function IndexNavbar() {
             <Nav navbar>
             
               <NavItem>
-              <NavLink href="/projects">
+              <NavLink href="/christopher-dent/projects">
                   <p>Projects</p>
                 </NavLink> 
               
               </NavItem>
               
               <NavItem>
-                <NavLink href="/about">
+                <NavLink href="/christopher-dent/about">
                   <p>About</p>
                 </NavLink>
               </NavItem>
           
               <NavItem>
-                <NavLink href="/blog">
+                <NavLink href="/christopher-dent/blog">
                   <p>Blog</p>
                 </NavLink>
               </NavItem>
