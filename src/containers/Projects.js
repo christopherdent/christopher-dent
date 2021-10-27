@@ -94,19 +94,8 @@ function Projects() {
                     role="tablist"
                   >
                     <NavItem>
-                      <NavLink
-                        className={pills === "1" ? "active" : ""}
-                        href="#pablo"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("1");
-                        }}
-                      >
-                        <i className="now-ui-icons design_image"></i>
-                      </NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink
+
+                    <NavLink
                         className={pills === "2" ? "active" : ""}
                         href="#pablo"
                         onClick={(e) => {
@@ -114,7 +103,23 @@ function Projects() {
                           setPills("2");
                         }}
                       >
-                        <i className="now-ui-icons location_world"></i>
+                     
+                       
+                        <i><span className="material-icons">school</span></i>
+                        
+
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                    <NavLink
+                        className={pills === "1" ? "active" : ""}
+                        href="#pablo"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setPills("1");
+                        }}
+                      >
+                        <i className="material-icons">lightbulb</i>
                       </NavLink>
                     </NavItem>
              
@@ -124,8 +129,8 @@ function Projects() {
               <TabContent className="gallery" activeTab={"pills" + pills}>
 
 
-                <TabPane tabId="pills1">
-                  
+                <TabPane tabId="pills2">
+
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
@@ -172,7 +177,7 @@ function Projects() {
 
 
 
-                <TabPane tabId="pills2">
+                <TabPane tabId="pills1">
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
