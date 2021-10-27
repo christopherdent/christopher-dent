@@ -48,9 +48,9 @@ React.useEffect(() => {
         </div>
         
         <Container>
-        
+          <br />
           <div>
-            <h1 className="h1-seo">christopher james dent</h1>
+            <h1 className="h1-seo">Christopher James Dent</h1>
           </div>
        
           <Carousel />

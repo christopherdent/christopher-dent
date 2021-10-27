@@ -16,7 +16,7 @@ const items = [
     href: "/christopher-dent/projects",
     src: require("assets/img/more-gears.gif").default,
     altText: "My Coding Projects",
-    caption: "My Coding Projects",
+    caption: "coding projects",
     
     
     
@@ -25,13 +25,13 @@ const items = [
     href: "/christopher-dent/about",
     src: require("assets/img/spaceman3.gif").default,
     altText: "About Christopher",
-    caption: "About Christopher",
+    caption: "about christopher",
   },
   {
     href: "/christopher-dent/blog",
     src: require("assets/img/books.gif").default,
     altText: "My Blog",
-    caption: "My Blog",
+    caption: "my blog",
   },
 ];
 
