@@ -33,15 +33,15 @@ function App() {
     <>
   <IndexNavbar />
    <div className="wrapper">     
-   <Router history={hist}>
+   
     <Switch>
-      <Route exact path="/christopher-dent" component={Main} />
+      <Route exact path="/" component={Main} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/about" component={About} />
-      <Route path="/" component={Main} />
+     
     </Switch>
-  </Router>,
+   
    <DarkFooter />
   </div>
  </>
