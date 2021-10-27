@@ -189,19 +189,24 @@ function Projects() {
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">
+                      <a href = 'https://christopherdent.github.io/newsletterExample/create'>
+                        <p> Angular Newsletter Signup App </p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png"
                         ></img>
-                     
+                     </a>
                       </Col>
                       <Col md="6">
+                        <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html">
+                        <p> CSS/jQuery Fundraising Widget</p>
                         <img
                           alt="..."
                           className="img-raised"
                           src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-10-03+23-14-19.png"
                         ></img>
+                        </a> 
                  
                       </Col>
                     </Row>
