@@ -5,25 +5,36 @@ import { Table } from 'reactstrap';
 function TableSection() {
 
   return (
+  
 <Table>
     <tbody>
-     <a href = "/projects">
+     
      <tr>
-      <td>Projects</td>
+      <td><a href = "/christopher-dent/projects">Projects  </a></td>
      </tr>
-     </a>
+   
+
+     
      <tr>
-      <td>Blog</td>
+
+      <td><a href = "/christopher-dent/blog">Blog</a></td>
      </tr>
+  
+
+     
      <tr>
-      <td>About</td>
+      <td><a href = "/christopher-dent/about">About </a></td>
      </tr>
+   
+
      <tr>
       <td> </td>
      </tr>
+
+
    </tbody>
  </Table>
-
+  
   );
 }
 

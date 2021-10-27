@@ -13,7 +13,7 @@ import {
 
 const items = [
   {
-    href: "/projects",
+    href: "/christopher-dent/projects",
     src: require("assets/img/more-gears.gif").default,
     altText: "My Coding Projects",
     caption: "My Coding Projects",
@@ -22,13 +22,13 @@ const items = [
     
   },
   {
-    href: "/about",
+    href: "/christopher-dent/about",
     src: require("assets/img/spaceman3.gif").default,
     altText: "About Christopher",
     caption: "About Christopher",
   },
   {
-    href: "https://christopher-dent.medium.com/",
+    href: "/christopher-dent/blog",
     src: require("assets/img/books.gif").default,
     altText: "My Blog",
     caption: "My Blog",
