@@ -68,6 +68,10 @@
 @import "now-ui-kit/responsive";
 
 // React
-@import "react/react-differences"
+@import "react/react-differences";
 
 
+#root > div > div > div.container > div > div.tab-content.gallery > div.tab-pane.active > div > div > div > a {
+    text-decoration: none;
+    color: white;
+}
