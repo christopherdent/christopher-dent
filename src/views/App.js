@@ -33,10 +33,14 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Switch>
-            <Route path="/index" render={(props) => <Main {...props} />} />
-            <Route path="/projects" render={(props) => <Projects {...props} />} />
-            <Route path="/about" render={(props) => <About {...props} />} />
-            <Route path="/blog" render={(props) => <Blog {...props} />} />
+          <Route exact path='/' component={Main} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/blog' component={Blog} />
+        
+
+
+
             <Redirect to="/index" />
           <Redirect from="/" to="/index" />
         </Switch>
