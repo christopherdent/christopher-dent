@@ -90,33 +90,36 @@
 
 
 .aboutContainer{
-    max-width: 100%;  
+    max-width: 90%;  
+     
+    
  
 }
 
-.box {
-    display: flex; 
-    align-items: space-around;      
-    justify-content: center;
+#root > div > div > div.collapse.show {
+    max-width: 100%;
+    display: flex;
+      
 }
 
  #middleAbout {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: black; 
-    max-width: 500px;
+    color: black;
+    // margin-left: 25px;
+    // margin-right: 25px;
+    
+    // max-width: 30%;
  }
 
  #leftAbout {
-    margin-left: 150px;
-    max-width: 500px;
+    // margin-left: 4%;
+    // max-width: 30%;
     color: black; 
  }
 
 
  #rightAbout {
-    max-width: 500px;
-    margin-right: 150px;
+    // max-width: 30%;
+    // margin-right: 50px;
     color: black; 
  }
 

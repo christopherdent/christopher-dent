@@ -5,7 +5,7 @@ import React, { useState } from 'react';
  
 
 // reactstrap components
-import { Button, Container, Card, CardBody, CardSubtitle, Media, Collapse, CardText } from "reactstrap";
+import { Button, Container, Card, CardBody, CardSubtitle, Media, Collapse, CardText, Col, Row } from "reactstrap";
 
 
 
@@ -47,30 +47,38 @@ function About() {
       
        <Container>
         
-          <div>
-            <h1 className="h1-seo">about me</h1>
-          </div>
-</Container>
+        
+       <h3 className="title">About Me</h3> 
+       </Container>
 
-<Collapse isOpen={!isOpen}>
-<Container className="aboutContainer">
-<div className = 'box'>
-   <Card id='leftAbout'>
-      <CardBody>
-    
+
+      <Collapse isOpen={!isOpen}>
+
+      <Container className = "aboutContainer">
+  
+       <Row>
+         <Col className = "lg-4 d-flex align-items-stretch">
+      
+      <Card id='leftAbout'>
+       <CardBody>
          <h4 className="card-subtitle mb-2 text-muted">My Skills</h4>
-          <p className="card-text">Flatiron taught me Ruby, Sinatra, Ruby on Rails, and JavaScript (including React/Redux). Comfortable with SQL databases including PostgreSQL and MySQL. More recently taught myself Angular. Familiar with but still learning C++, Java and various other technologies. Continuous learning is what I love about code. I do this in my spare time and only wish I had more time to devote to it! I have strong organizational skills and international experience across a range of industries. Certified Project Manager (PMI, PRINCE2) and Change Manager (Prosci).</p>
-      </CardBody>
-    </Card>
- 
-   <Card id='middleAbout'>
-    <CardBody>
-      <h4 className="card-subtitle mb-2 text-muted">My Experience</h4>
-        <p className="card-text">I graduated from McGill University in Canada with a double major in political science and history. I've been working in various project management roles pretty much ever since - mostly at a DC-based nonprofit analytical standards development association, but with a brief stint in the UK where I worked contracts for the Royal Bank of Scotland Group and the City of Edinburgh Council. I've got approximately 12 years project management experiece, all the while learning code in my spare time.</p>
-          
-     </CardBody>
-  </Card>
+         <p className="card-text">Flatiron taught me Ruby, Sinatra, Ruby on Rails, and JavaScript (including React/Redux). Comfortable with SQL databases including PostgreSQL and MySQL. More recently taught myself Angular. Familiar with but still learning C++, Java and various other technologies. Continuous learning is what I love about code. I do this in my spare time and only wish I had more time to devote to it! I have strong organizational skills and international experience across a range of industries. Certified Project Manager (PMI, PRINCE2) and Change Manager (Prosci).</p>
+        </CardBody>
+      </Card>
 
+          </Col>
+
+          <Col className = "lg-4 d-flex align-items-stretch">
+      <Card id='middleAbout'>
+        <CardBody>
+        <h4 className="card-subtitle mb-2 text-muted">My Experience</h4>
+        <p className="card-text">I graduated from McGill University in Canada with a double major in political science and history. I've been working in various project management roles pretty much ever since - mostly at a DC-based nonprofit analytical standards development association, but with a brief stint in the UK where I worked contracts for the Royal Bank of Scotland Group and the City of Edinburgh Council. I've got approximately 12 years project management experiece, all the while learning code in my spare time.</p>  
+        </CardBody>
+      </Card>
+          </Col>
+
+
+<Col className = "lg-4 d-flex align-items-stretch">
 <Card id='rightAbout'>
    <CardBody>
     
@@ -79,15 +87,17 @@ function About() {
    
   </CardBody>
 </Card>
+ 
+</Col>
 
 
 
-</div>
-
-
+</Row>
 
 </Container>
 </Collapse>
+
+
 
 
 
@@ -156,7 +166,7 @@ function About() {
             </Media>
             <img class="align-self-center mr-3"  src="https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e4742m73cffv1rajt9hc73ckz6e7v8ep1mfs29v7764&rid=giphy.gif&ct=g" alt="Generic placeholder image" id="about-img" id="mobile"/>
         
-</Collapse>
+          </Collapse>
     
     
           </Container>

@@ -121,6 +121,8 @@ function Projects() {
                   </Nav>
                 </div>
               </Col>
+
+
               <TabContent className="gallery" activeTab={"pills" + pills}>
 
 
