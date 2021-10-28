@@ -3,7 +3,8 @@
 .carousel-item-prev,
 .carousel-item.active{
     display: block;
-   font-size: 125%;
+    font-size: 125%;
+    font-weight: 3000;
 }
 
 .carousel{
@@ -16,17 +17,19 @@
         margin-right: auto;
     }
 
-    .card {
-        max-width: 650px;
-        margin: 60px auto;
-        display: block;
+    // .card {
+    //     max-width: 650px;
+    //     margin: 60px auto;
+    //     display: block;
            
-    }
+    // }
     
     
 }
 
-
+// #carousel > div > div > div:nth-child(3) > div > h5{
+//     color: black;
+// }
 #carousel > div > div > div.carousel-item.active > img {
     // width:50vw;
     // height:30vw;  

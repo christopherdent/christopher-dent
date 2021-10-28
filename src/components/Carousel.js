@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  UncontrolledCarousel,
   Carousel,
   CarouselItem,
   CarouselIndicators,
-  NavItem,
+ 
 } from "reactstrap";
 
 // core components
@@ -14,7 +12,7 @@ import {
 const items = [
   {
     href: "/christopher-dent/projects",
-    src: require("assets/img/more-gears.gif").default,
+    src: require("assets/img/ibm.gif").default,
     altText: "My Coding Projects",
     caption: "coding projects",
     

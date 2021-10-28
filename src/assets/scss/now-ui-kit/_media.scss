@@ -4,15 +4,23 @@
 }
 
 
-#root > div > div > div.container > div > div > p {
+// #root > div > div > div.container > div > div > p {
      
-    text-align: left;
+//     text-align: left;
      
-    font-weight: 450 !important;
-    top: 50%;
-    left: 50%;
+//     font-weight: 450 !important;
+//     top: 50%;
+//     left: 50%;
    
+//   }
+
+
+  .media-body > p {
+    text-align: left !important;
+    justify-content: center;
+    margin-left: 20px;
   }
+
 
   #mobile {
     display: none;

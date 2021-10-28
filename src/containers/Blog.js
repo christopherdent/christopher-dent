@@ -62,12 +62,15 @@ function Blog() {
 
  
           <Container>
-      
+          <a href = "https://christopher-dent.medium.com/">
             <h3 className="title">My Blog</h3>
-            <h5 className="description">Writing as I learn more about code.  Click to see read my blog on Medium.</h5>
+          </a>
+          
+          <h5 className="description">Writing as I learn more about code.  Click the monkey to read my blog on Medium.</h5>
             <a href = "https://christopher-dent.medium.com/">
-            <img src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/family-blog.jpg" />
-            </a>
+          <img src="https://cjdportfolio.s3.amazonaws.com/monkey.gif" />
+          
+          </a>
 
           </Container>
           </div>

@@ -70,23 +70,79 @@
 // React
 @import "react/react-differences";
 
-
+// various custom scss
+//for project tabs 
 #root > div > div > div.container > div > div.tab-content.gallery > div.tab-pane.active > div > div > div > a {
     text-decoration: none;
     color: white;
 }
 
-// #aboutCard > div.card-body {
-//     display: inline; 
-//     color: black; 
-   
-// } 
-// #root > div > div > div.container > div.card-columns > div{
-//      width: 400px;
-//      height: 500px !important;
-// }
 
-// #root > div > div > div.container > div.card-columns{
-//     display: flex;
-//     justify-content: space-evenly;
-// }
+
+
+
+
+
+
+
+
+//About page custom css
+
+
+.aboutContainer{
+    max-width: 100%;  
+ 
+}
+
+.box {
+    display: flex; 
+    align-items: space-around;      
+    justify-content: center;
+}
+
+ #middleAbout {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black; 
+    max-width: 500px;
+ }
+
+ #leftAbout {
+    margin-left: 150px;
+    max-width: 500px;
+    color: black; 
+ }
+
+
+ #rightAbout {
+    max-width: 500px;
+    margin-right: 150px;
+    color: black; 
+ }
+
+#aboutCard > div.card-body {  
+    color: black; 
+ } 
+
+
+
+
+
+
+
+
+
+
+ 
+//projects page custom scss
+
+#root > div > div > div.container > a:nth-child(1) > h3 {
+    text-decoration: none;
+    color: white;
+ }
+
+#root > div > div > div.container > a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+
+}
