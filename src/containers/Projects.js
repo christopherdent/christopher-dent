@@ -80,7 +80,7 @@ function Projects() {
         </div>
 
  
-          <Container>
+          <Container id="projContainer">
       
             <h3 className="title">Coding Projects</h3>
             <h5 className="description">
@@ -127,16 +127,15 @@ function Projects() {
                   </Nav>
                 </div>
               </Col>
+          </Row>
 
+       <TabContent className="gallery" activeTab={"pills" + pills}>
 
-              <TabContent className="gallery" activeTab={"pills" + pills}>
-
-
-                <TabPane tabId="pills2">
-
+       
+            <TabPane tabId="pills2">
                   
-                <Row className="collections">
-
+         
+            <Row className="collections">
 
                 <Col sm={6} md={4} lg={3}>
                   
@@ -204,7 +203,7 @@ function Projects() {
                   </CardBody>
                 </Card>
                 </Col>               
-              </Row>
+           </Row>
             
             </TabPane>
 
@@ -218,8 +217,8 @@ function Projects() {
 
 
         <TabPane tabId="pills1">
-                   
-            <Row className="collections">
+        <Row className="collections">
+            
               
               <Col sm={6} md={4} lg={3}>
                   
@@ -291,11 +290,12 @@ function Projects() {
                       </Col>
 
 
-                    </Row>
-                
+                   
+                      </Row>
                 </TabPane>
+               
               </TabContent>
-            </Row>
+         
           </Container>
           </div>
         </>

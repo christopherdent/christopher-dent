@@ -143,6 +143,19 @@
 
 }
 
+
+
+#projContainer {
+    max-width: 75%;
+     
+ 
+}
+
+.collections{
+    display: flex;
+    justify-content: center !important;
+}
+
 #proj > div {
     background-color: rgb(4, 4, 34);
 }
@@ -161,11 +174,7 @@
     opacity: 0.9;
 }
  
-.row{
-    display: flex;
-    justify-content: space-around;
- 
-}
+
 
 .card-title{
     font-weight: bold;
@@ -184,7 +193,7 @@
 
 
 
-#root > div > div > div.container > div > div.tab-content.gallery > div.tab-pane.active > div > div > div > a {
+#proj > a {
     color: rgb(63, 61, 212) !important; 
     
     font-weight: bold;
