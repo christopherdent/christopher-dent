@@ -2,15 +2,14 @@
 
 import React, { useState } from 'react';
 
- 
-
 // reactstrap components
-import { Button, Container, Card, CardBody, CardSubtitle, Media, Collapse, CardText, Col, Row } from "reactstrap";
+import { Button, Container, Card, CardBody, CardSubtitle, Media, Collapse, Col, Row } from "reactstrap";
 
 
 
 
 function About() {
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -30,6 +29,8 @@ function About() {
       };
     }
   });
+
+ 
 
   return (
     <>
@@ -97,22 +98,28 @@ function About() {
 </Container>
 </Collapse>
 
+            <center>
+            <Button color="primary" 
+            onClick={toggle} 
+            style={{ marginBottom: '1rem' }}> 
+            
+            {isOpen === false ? "or, the life story" : "i liked the short version"}
+            
+            </Button>
+            </center>
+    <br />
+    <br />
+    <br />
+    <br />
+              
 
 
+    <Collapse isOpen={isOpen}>
 
-
-<Container>
-
-
-
-
-
-
-    <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>or, the life story</Button>
-      <Collapse isOpen={isOpen}>
-
+      <Container>
 
           <Media>
+   
             <img class="align-self-center mr-3"  src="https://cjdportfolio.s3.amazonaws.com/asperida.jpg" alt="Generic placeholder image" id="about-img" />
                 <div class="media-body">
                  <p><br/><br/><br/>
@@ -165,11 +172,11 @@ function About() {
                     </div>
             </Media>
             <img class="align-self-center mr-3"  src="https://media4.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e4742m73cffv1rajt9hc73ckz6e7v8ep1mfs29v7764&rid=giphy.gif&ct=g" alt="Generic placeholder image" id="about-img" id="mobile"/>
+            </Container>
         
           </Collapse>
     
     
-          </Container>
         
 
       </div>
