@@ -12,9 +12,15 @@ import {
   Row,
   Col,
   UncontrolledTooltip,
+  Card,
+  CardImg,
+  CardBody,
+  CardTitle,
+  CardText
 } from "reactstrap";
 
-// core components
+ 
+
 
  
  
@@ -61,7 +67,7 @@ function Projects() {
     
 
 
-<div className="page-header clear-filter" filter-color="blue">
+      <div className="page-header clear-filter" filter-color="blue">
         <div
           className="page-header-image"
           style={{
@@ -128,55 +134,79 @@ function Projects() {
 
                 <TabPane tabId="pills2">
 
-                  <Col className="ml-auto mr-auto" md="10">
-                    <Row className="collections">
-                      <Col md="6">
-                      <a href = "https://christopherdent.github.io/dinofinder-frontend">
-                      <p>Dinofinder 2020</p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg"
-                        
-                        ></img>
-                        </a>
-                        <a href = "http://volunteermanager.herokuapp.com/">
-                        <p>Association Volunteer Manager</p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://img1.wsimg.com/isteam/stock/7903/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
-                        ></img>
-                        </a>
-                        
-                      </Col>
+                  
+                <Row className="collections">
+
+
+                <Col sm={6} md={4} lg={3}>
+                  
+                    <Card style={{ width: '18rem' }}>
+                  
+                      <CardImg variant="top" src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg" />
+                  
+                      <a href = "https://christopherdent.github.io/dinofinder-frontend" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dinofinder-frontend" target="_blank" rel="noreferrer">Code</a>
+                      <div id = 'fader'> 
+                      <CardBody>
+                  
+                           <CardTitle>DinoFinder</CardTitle>
+                  
+                               <CardText>
+                  
+                                 My Flatiron Capstone project.  A graphical educational tool designed to teach kids basic internet research skills in a fun way.  Built with React and Redux frontend, Ruby on Rails backend. 
+                  
+                              </CardText>
+                   
+                       </CardBody>
+                       </div>    
+                    </Card>
+                  
+                  </Col>
+               
+                  <Col sm={6} md={4} lg={3}>
+
+                    <Card style={{ width: '18rem' }}>
+                        <CardImg variant="top" src="https://tuality.org/wp-content/uploads/2019/01/volunteer_hero_image_03.jpg" />
+                        <a href = "http://volunteermanager.herokuapp.com/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/VolunteerManager" target="_blank" rel="noreferrer">Code</a>
+                          <CardBody>
+                            <CardTitle>Volunteer Manager</CardTitle>
+                            <CardText>
+                              Business ready people management app, customizable for a wide range of uses.  Allows creation of groups and volunteer lists, storage of statements of expertise and CVs, and more.  Login with username guest, password guest for a quick demo.
+                            </CardText>
+                    
+                   </CardBody>
+                </Card>
+              </Col>
 
                    
 
-                      <Col md="6">
-
-                      <a href = "http://polar-lake-91544.herokuapp.com/">
-                      <p>Exoplanet Explorer</p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
-                        ></img>
-                        </a>
-
-
-                        <a href = "https://christopherdent.github.io/battleships-frontend/">
-                        <p>Battle, Ships!</p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300"
-                        ></img>
-                        </a>
-                      </Col>
-                    </Row>
-                  </Col>
-                </TabPane>
+                      <Col sm={6} md={4} lg={3}>
+                      <Card style={{ width: '18rem' }}>
+                        <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
+                        <a href = "http://polar-lake-91544.herokuapp.com/" target="_blank" rel="noreferrer"> Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dent-exoplanet-sinatra" target="blank" rel="noreferrer">Code</a>
+                          <CardBody>
+                            <CardTitle>Exoplanet Explorer</CardTitle>
+                            <CardText> Built with the Ruby DSL Sinatra, this is a simple app for cataloguing new discoveries in astronomy, specifically planets not orbiting our own sun.  Allows for the creation of star systems and orbiting planets, including all known specifics of said planet.  Simple but fun!  Login with username guest, password guest for a quick demo.
+                            </CardText>
+                    
+                   </CardBody>
+                </Card>
+                </Col>
+            
+                <Col sm={6} md={4} lg={3}>
+                      <Card style={{ width: '18rem' }}>
+                        <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
+                        <a href = "https://christopherdent.github.io/battleships-frontend/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/battleships-frontend" target="_blank" rel="noreferrer">Code</a>
+                  <CardBody>
+                     <CardTitle>Battle Ships</CardTitle>
+                     <CardText> 
+                       Admittedly not my prettiest app, I keep it in the portfolio because the codebase is a good reflection of my understanding of OOJS.  The app was built with nothing but JS classes, CSS and HTML.  Currently working on an updated React version in my spare time.
+                    </CardText>
+                  </CardBody>
+                </Card>
+                </Col>               
+              </Row>
+            
+            </TabPane>
 
 
 
@@ -188,9 +218,9 @@ function Projects() {
 
 
                 <TabPane tabId="pills1">
-                  <Col className="ml-auto mr-auto" md="10">
+                   
                     <Row className="collections">
-                      <Col md="6">
+                      <Col sm={6} md={4} lg={3}>
                       <a href = 'https://christopherdent.github.io/newsletterExample/create'>
                         <p> Angular Newsletter Signup App </p>
                         <img
@@ -200,7 +230,8 @@ function Projects() {
                         ></img>
                      </a>
                       </Col>
-                      <Col md="6">
+
+                      <Col sm={6} md={4} lg={3}>
                         <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html">
                         <p> CSS/jQuery Fundraising Widget</p>
                         <img
@@ -212,7 +243,7 @@ function Projects() {
                  
                       </Col>
                     </Row>
-                  </Col>
+                
                 </TabPane>
               </TabContent>
             </Row>
