@@ -152,18 +152,18 @@
 }
 
 
-// #proj{
-//     opacity: 60%; 
+#proj{
+    opacity: 0.6; 
     
-// }
+}
  
-// #proj:hover{
-//     opacity: 100%;
-// }
+#proj:hover{
+    opacity: 0.9;
+}
  
 .row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
  
 }
 
