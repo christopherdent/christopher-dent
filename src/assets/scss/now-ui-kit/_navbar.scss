@@ -1,21 +1,32 @@
 
 
+    @media only screen and (max-width: 768px) {
+      
+       
+        #root > nav > div {
+            align-items: center;
+            justify-content: center;
+         
+        }
 
+        #navbar-brand > h4 {
+            padding-bottom: 16px; 
+        }
+
+    }
 
 
 .navbar{
     padding-top: $navbar-padding-base;
     padding-bottom: $navbar-padding-base;
     min-height: 53px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
    
    
-    @media only screen and (max-width: 768px) {
-        display: none;
-     }
 
-        
+
+        #root > nav > div
 
     a{
         vertical-align: middle;

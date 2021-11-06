@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+
 // reactstrap components
 import { Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
@@ -48,7 +48,7 @@ function IndexNavbar() {
   
           </div>
            
-            <Nav navbar>
+            <Nav>
             
               <NavItem>
               <NavLink href="/christopher-dent/projects">
