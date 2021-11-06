@@ -161,7 +161,11 @@
 //     opacity: 100%;
 // }
  
-
+.row{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
 
 .card-title{
     font-weight: bold;
@@ -193,7 +197,9 @@
     font-weight: bold; 
 }
  
-
+#proj{
+    margin-left: 25px;
+}
 
 
 // #root > div > div > div:nth-child(4) > button {

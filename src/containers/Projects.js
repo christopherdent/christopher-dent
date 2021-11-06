@@ -145,7 +145,7 @@ function Projects() {
                       <CardImg variant="top" src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg" />
                   
                       <a href = "https://christopherdent.github.io/dinofinder-frontend" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dinofinder-frontend" target="_blank" rel="noreferrer">Code</a>
-                      <div id = 'fader'> 
+                     
                       <CardBody>
                   
                            <CardTitle>DinoFinder</CardTitle>
@@ -157,7 +157,7 @@ function Projects() {
                               </CardText>
                    
                        </CardBody>
-                       </div>    
+                           
                     </Card>
                   
                   </Col>
@@ -217,21 +217,18 @@ function Projects() {
 
 
 
-                <TabPane tabId="pills1">
+        <TabPane tabId="pills1">
                    
             <Row className="collections">
-
-                     
-
-
-                <Col sm={6} md={4} lg={3}>
+              
+              <Col sm={6} md={4} lg={3}>
                   
                     <Card style={{ width: '18rem' }} id='proj'>
                   
                       <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png" />
                   
                       <a href = "https://christopherdent.github.io/newsletterExample/create" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
-                      <div id = 'fader'> 
+                     
                       <CardBody>
                   
                            <CardTitle>Angular Newsletter</CardTitle>
@@ -243,22 +240,22 @@ function Projects() {
                               </CardText>
                    
                        </CardBody>
-                       </div>    
+                     
                     </Card>
                   
                   </Col>
            
 
-                      <Col sm={6} md={4} lg={3}>
+                  <Col sm={6} md={4} lg={3}>
                       <Card style={{ width: '18rem' }} id='proj'>
                       
-                  <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-11-06+15-02-49.png" />
+                        <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-11-06+15-02-49.png" />
               
-                  <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/fundraiser-fronted" target="_blank" rel="noreferrer">Code</a>
+                        <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/fundraiser-fronted" target="_blank" rel="noreferrer">Code</a>
                 
-                  <CardBody>
+                        <CardBody>
               
-                       <CardTitle>Fundraising Widget</CardTitle>
+                        <CardTitle>Fundraising Widget</CardTitle>
               
                            <CardText>
 
@@ -266,14 +263,14 @@ function Projects() {
 
                           </CardText>
                
-                   </CardBody>
+                        </CardBody>
                
-                </Card>
+                        </Card>
 
                       </Col>
 
-                      <Col sm={6} md={4} lg={3}>
-                      <Card style={{ width: '18rem' }} id='proj'>
+                  <Col sm={6} md={4} lg={3}>
+                     <Card style={{ width: '18rem' }} id='proj'>
                   
                   <CardImg variant="top" src="https://dr5dymrsxhdzh.cloudfront.net/blog/images/ae6058960/2021/10/portfolio-picture-id175431947.jpg" />
               
