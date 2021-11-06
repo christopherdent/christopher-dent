@@ -80,12 +80,11 @@ function Projects() {
         </div>
 
  
-          <Container id="projContainer">
-      
-            <h3 className="title">Coding Projects</h3>
-            <h5 className="description">
-              This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
-            </h5>
+          <Container className="projContainer">
+              <h3 className="title">Coding Projects</h3>
+                <h5 className="description">
+                  This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
+                </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <div className="nav-align-center">
@@ -137,7 +136,7 @@ function Projects() {
          
             <Row className="collections">
 
-                <Col sm={6} md={4} lg={3}>
+                <Col>
                   
                     <Card style={{ width: '18rem' }} id='proj'>
                   
@@ -161,7 +160,7 @@ function Projects() {
                   
                   </Col>
                
-                  <Col sm={6} md={4} lg={3}>
+                  <Col>
 
                     <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://tuality.org/wp-content/uploads/2019/01/volunteer_hero_image_03.jpg" />
@@ -178,7 +177,7 @@ function Projects() {
 
                    
 
-                      <Col sm={6} md={4} lg={3}>
+                      <Col>
                       <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
                         <a href = "http://polar-lake-91544.herokuapp.com/" target="_blank" rel="noreferrer"> Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dent-exoplanet-sinatra" target="blank" rel="noreferrer">Code</a>
@@ -191,7 +190,7 @@ function Projects() {
                 </Card>
                 </Col>
             
-                <Col sm={6} md={4} lg={3}>
+                <Col>
                       <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
                         <a href = "https://christopherdent.github.io/battleships-frontend/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/battleships-frontend" target="_blank" rel="noreferrer">Code</a>
@@ -220,7 +219,7 @@ function Projects() {
         <Row className="collections">
             
               
-              <Col sm={6} md={4} lg={3}>
+              <Col>
                   
                     <Card style={{ width: '18rem' }} id='proj'>
                   
@@ -245,7 +244,7 @@ function Projects() {
                   </Col>
            
 
-                  <Col sm={6} md={4} lg={3}>
+                  <Col>
                       <Card style={{ width: '18rem' }} id='proj'>
                       
                         <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-11-06+15-02-49.png" />
@@ -268,7 +267,7 @@ function Projects() {
 
                       </Col>
 
-                  <Col sm={6} md={4} lg={3}>
+                  <Col>
                      <Card style={{ width: '18rem' }} id='proj'>
                   
                   <CardImg variant="top" src="https://dr5dymrsxhdzh.cloudfront.net/blog/images/ae6058960/2021/10/portfolio-picture-id175431947.jpg" />

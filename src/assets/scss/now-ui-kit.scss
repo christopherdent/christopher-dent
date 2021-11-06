@@ -145,16 +145,11 @@
 
 
 
-#projContainer {
+.projContainer {
     max-width: 75%;
-     
  
 }
 
-.collections{
-    display: flex;
-    justify-content: center !important;
-}
 
 #proj > div {
     background-color: rgb(4, 4, 34);
@@ -169,6 +164,9 @@
     opacity: 0.6; 
     
 }
+
+ 
+
  
 #proj:hover{
     opacity: 0.9;
@@ -206,9 +204,6 @@
     font-weight: bold; 
 }
  
-#proj{
-    margin-left: 25px;
-}
 
 
 // #root > div > div > div:nth-child(4) > button {
