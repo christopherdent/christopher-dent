@@ -59,8 +59,7 @@ React.useEffect(() => {
           <br /><br /><br />
     
           </Container>
-          <Table />
-
+           {/* </Table> */}
       </div>
 
     
