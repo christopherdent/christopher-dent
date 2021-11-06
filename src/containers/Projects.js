@@ -84,7 +84,7 @@ function Projects() {
       
             <h3 className="title">Coding Projects</h3>
             <h5 className="description">
-              This page showcases my coding projects from Flatiron school and a few I have completed since graduating.  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
+              This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
             </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
@@ -140,7 +140,7 @@ function Projects() {
 
                 <Col sm={6} md={4} lg={3}>
                   
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '18rem' }} id='proj'>
                   
                       <CardImg variant="top" src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg" />
                   
@@ -164,7 +164,7 @@ function Projects() {
                
                   <Col sm={6} md={4} lg={3}>
 
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://tuality.org/wp-content/uploads/2019/01/volunteer_hero_image_03.jpg" />
                         <a href = "http://volunteermanager.herokuapp.com/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/VolunteerManager" target="_blank" rel="noreferrer">Code</a>
                           <CardBody>
@@ -180,7 +180,7 @@ function Projects() {
                    
 
                       <Col sm={6} md={4} lg={3}>
-                      <Card style={{ width: '18rem' }}>
+                      <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
                         <a href = "http://polar-lake-91544.herokuapp.com/" target="_blank" rel="noreferrer"> Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dent-exoplanet-sinatra" target="blank" rel="noreferrer">Code</a>
                           <CardBody>
@@ -193,7 +193,7 @@ function Projects() {
                 </Col>
             
                 <Col sm={6} md={4} lg={3}>
-                      <Card style={{ width: '18rem' }}>
+                      <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
                         <a href = "https://christopherdent.github.io/battleships-frontend/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/battleships-frontend" target="_blank" rel="noreferrer">Code</a>
                   <CardBody>
@@ -219,29 +219,81 @@ function Projects() {
 
                 <TabPane tabId="pills1">
                    
-                    <Row className="collections">
+            <Row className="collections">
+
+                     
+
+
+                <Col sm={6} md={4} lg={3}>
+                  
+                    <Card style={{ width: '18rem' }} id='proj'>
+                  
+                      <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png" />
+                  
+                      <a href = "https://christopherdent.github.io/newsletterExample/create" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
+                      <div id = 'fader'> 
+                      <CardBody>
+                  
+                           <CardTitle>Angular Newsletter</CardTitle>
+                  
+                               <CardText>
+
+                                Been trying to teach myself some Angular in my spare time, here is the first Angular app I put together, a basic newsletter signup application with a Ruby on Rails backend. 
+
+                              </CardText>
+                   
+                       </CardBody>
+                       </div>    
+                    </Card>
+                  
+                  </Col>
+           
+
                       <Col sm={6} md={4} lg={3}>
-                      <a href = 'https://christopherdent.github.io/newsletterExample/create'>
-                        <p> Angular Newsletter Signup App </p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png"
-                        ></img>
-                     </a>
+                      <Card style={{ width: '18rem' }} id='proj'>
+                      
+                  <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-11-06+15-02-49.png" />
+              
+                  <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/fundraiser-fronted" target="_blank" rel="noreferrer">Code</a>
+                
+                  <CardBody>
+              
+                       <CardTitle>Fundraising Widget</CardTitle>
+              
+                           <CardText>
+
+                            I wanted to learn some jQuery so I did and used it to help build this fundraising widget that increments per click, updating the funds thermometer as well as a backend database.
+
+                          </CardText>
+               
+                   </CardBody>
+               
+                </Card>
+
                       </Col>
 
                       <Col sm={6} md={4} lg={3}>
-                        <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html">
-                        <p> CSS/jQuery Fundraising Widget</p>
-                        <img
-                          alt="..."
-                          className="img-raised"
-                          src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-10-03+23-14-19.png"
-                        ></img>
-                        </a> 
+                      <Card style={{ width: '18rem' }} id='proj'>
+                  
+                  <CardImg variant="top" src="https://dr5dymrsxhdzh.cloudfront.net/blog/images/ae6058960/2021/10/portfolio-picture-id175431947.jpg" />
+              
+                  <a href = "https://christopherdent.github.io/christopher-dent-old" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/christopher-dent-old" target="_blank" rel="noreferrer">Code</a>
+                  
+                  <CardBody>
+              
+                       <CardTitle>Portfolio v1</CardTitle>
+              
+                           <CardText>
+                            My original portfolio site.  Same info you'll see here, less interactive.  Just including as an example of how my skills have evolved independently since graduating Flatiron.
+                          </CardText>
+               
+                   </CardBody>
                  
+                </Card>
+
                       </Col>
+
+
                     </Row>
                 
                 </TabPane>

@@ -5,7 +5,7 @@
     .card-header{
         padding-left: 5px;
         padding-right: 5px;
-        background-color: rgb(4, 4, 34);
+       
          
     }
 
@@ -15,27 +15,33 @@
         
     }
 }
- 
+
+#proj > div > div {
+    background-color: rgb(4, 4, 34);
+
+}
+#proj > div {
+    background-color: rgb(4, 4, 34);
+}
 
 .row{
     display: flex; 
     justify-content: space-around;
     
 }
-.card{
+
+
+#proj{
     opacity: 70%; 
     
 }
  
-.card:hover{
+#proj{
     opacity: 100%;
 }
  
 
-.card-body{
-    background-color: rgb(4, 4, 34);
-    
-}
+
 
 .card-title{
     font-weight: bold;
