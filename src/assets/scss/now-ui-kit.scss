@@ -71,16 +71,7 @@
 @import "react/react-differences";
 
 // various custom scss
-//for project tabs 
-
-
-#root > div > div > div.container > div > div.tab-content.gallery > div.tab-pane.active > div > div > div > a {
-    text-decoration: none;
-    color: white;
-}
-
-
-
+ 
 
 
 
@@ -206,6 +197,14 @@
     font-weight: bold; 
 }
  
+
+#root > div > div > div.container > div > div.tab-content.gallery > div.tab-pane.active > div > div > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 
 // #root > div > div > div:nth-child(4) > button {
