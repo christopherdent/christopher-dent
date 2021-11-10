@@ -208,7 +208,16 @@
 //custom nav css 
 
 #root > nav > div > ul > li:nth-child(-n+3):hover{
-    background-color: rgb(41, 41, 114);
-    opacity: 100%; 
+    background-color: #89CFF0;
+    opacity: 75%; 
+    > a > p{
+        font-weight: bold;
 
+    }
+}
+
+#root > nav > div > ul > li:nth-child(-n+3) > a > p:hover {
+
+    
+    
 }
