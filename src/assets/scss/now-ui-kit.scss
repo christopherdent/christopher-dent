@@ -205,9 +205,10 @@
 
 
 
+//custom nav css 
 
+#root > nav > div > ul > li:nth-child(-n+3):hover{
+    background-color: rgb(41, 41, 114);
+    opacity: 100%; 
 
-// #root > div > div > div:nth-child(4) > button {
-    
-//     margin-bottom: 25px !important;
-// }
+}
