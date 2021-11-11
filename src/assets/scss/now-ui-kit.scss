@@ -209,9 +209,11 @@
 
 #root > nav > div > ul > li:nth-child(-n+3):hover{
     background-color: #89CFF0;
-    opacity: 75%; 
+    opacity: 40%; 
     > a > p{
         font-weight: bold;
+        color: black; 
+         
 
     }
 }
