@@ -200,20 +200,20 @@
 
 //custom nav css 
 
-// #root > nav > div > ul > li:nth-child(-n+3):hover{
-//     background-color: #89CFF0;
-//     opacity: 40%; 
-//     > a > p{
-//         font-weight: bold;
-//         color: black; 
+#root > nav > div > ul > li:nth-child(-n+3):hover{
+    background-color: #89CFF0;
+    opacity: .4; 
+    > a > p{
+        font-weight: bold;
+        color: black; 
          
 
-//     }
-// }
+    }
+}
 
-// #root > nav > div > ul > li > a > p{
-//     color: white;   
-// }
+#root > nav > div > ul > li > a > p{
+    color: white;   
+}
 
 
 ///custom social css
