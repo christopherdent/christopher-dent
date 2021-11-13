@@ -228,9 +228,9 @@
 }
  
 #social > a > div > svg > g.social-svg-mask > path {
-    opacity: 40%;
+    opacity: .4;
 }
 
 #social > a > div > svg > g.social-svg-mask > path:hover {
-    opacity: 100%;
+    opacity: 1;
 }
