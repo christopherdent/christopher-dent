@@ -5972,3 +5972,20 @@ td.rdtYear:hover {
 
 
     
+
+  #social{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 500px;
+    margin: auto; 
+    padding-bottom: 20px; 
+}
+ 
+#social > a > div > svg > g.social-svg-mask > path {
+    opacity: .4;
+}
+
+#social > a > div > svg > g.social-svg-mask > path:hover {
+    opacity: 1;
+}
