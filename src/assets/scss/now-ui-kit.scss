@@ -148,7 +148,7 @@
 
 #proj{
     opacity: 0.6; 
-    
+    width: 18rem; 
 }
 
  
@@ -182,6 +182,7 @@
     
     font-weight: bold;
     margin-bottom: 5px !important;
+    
      
 }
 
@@ -196,6 +197,17 @@
     color: white !important;
 }
 
+
+@media only screen and (max-width: 768px) {
+    #proj{
+        opacity: 0.6; 
+       
+        max-width: fit-content;
+      
+    }
+
+  }
+ 
 
 
 //custom nav css 
@@ -233,4 +245,10 @@
 
 #social > a > div > svg > g.social-svg-mask > path:hover {
     opacity: 1;
+}
+
+//main page custom scss
+
+#mainContain{
+    line-height:100%;
 }

@@ -125,7 +125,7 @@ function Projects() {
 
                 <Col>
                   
-                    <Card style={{ width: '18rem' }} id='proj'>
+                    <Card id='proj'>
                   
                       <CardImg variant="top" src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg" />
                   

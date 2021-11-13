@@ -51,7 +51,7 @@ React.useEffect(() => {
           
         </div>
         
-        <Container>
+        <Container id="mainContain">
           <br />
           <div>
             <h1 className="h1-seo">Christopher James Dent</h1>
@@ -60,7 +60,7 @@ React.useEffect(() => {
           <Carousel />
         
         
-          <br /><br /><br />
+        
     
           </Container>
 
