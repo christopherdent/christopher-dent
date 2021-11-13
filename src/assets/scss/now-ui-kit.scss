@@ -19,10 +19,6 @@
 @import 'now-ui-kit/variables';
 @import 'now-ui-kit/mixins';
 
-// Plugins CSS
-@import "now-ui-kit/plugins/plugin-bootstrap-switch";
-@import "now-ui-kit/plugins/plugin-nouislider";
-@import "now-ui-kit/plugins/plugin-datepicker";
 
 // Core CSS
 @import "now-ui-kit/buttons";
@@ -43,22 +39,21 @@
 @import "now-ui-kit/dropdown";
 @import "now-ui-kit/alerts";
 @import "now-ui-kit/images";
-@import "now-ui-kit/popups";
-@import "now-ui-kit/modals";
+
 @import "now-ui-kit/carousel";
 @import "now-ui-kit/footers";
 
 
 
-@import "now-ui-kit/_table";
-@import "now-ui-kit/_jumbotron";
+
+
 @import "now-ui-kit/_media";
 
 
 // Cards
 @import "now-ui-kit/cards";
-@import "now-ui-kit/cards/card-plain";
-@import "now-ui-kit/cards/card-signup";
+ 
+ 
 
 // example pages and sections
 @import "now-ui-kit/example-pages";
@@ -83,9 +78,7 @@
 
 
 .aboutContainer{
-    max-width: 90%;  
-     
-    
+    max-width: 90%;      
  
 }
 
@@ -221,3 +214,16 @@
 // #root > nav > div > ul > li > a > p{
 //     color: white;   
 // }
+
+
+///custom social css
+
+#social{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 500px;
+    margin: auto; 
+    padding-bottom: 20px; 
+}
+ 

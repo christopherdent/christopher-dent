@@ -1,14 +1,18 @@
 /*eslint-disable*/
 
 import React from "react";
+import ReactDOM from 'react-dom';
 import Carousel from "components/Carousel.js";
 
-import Table from "components/Table.js";
-import { Link } from "react-router-dom";
+
 
 // reactstrap components
 import { Container } from "reactstrap";
 
+//social component
+ 
+
+import { SocialIcon } from 'react-social-icons';
 
 
 
@@ -59,6 +63,10 @@ React.useEffect(() => {
           <br /><br /><br />
     
           </Container>
+
+ 
+       
+       
            {/* </Table> */}
       </div>
 
