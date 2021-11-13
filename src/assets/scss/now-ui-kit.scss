@@ -200,8 +200,7 @@
 
 @media only screen and (max-width: 768px) {
     #proj{
-        opacity: 0.6; 
-       
+        opacity: 0.6;        
         max-width: fit-content;
       
     }
@@ -252,3 +251,16 @@
 #mainContain{
     line-height:100%;
 }
+
+@media only screen and (max-width: 768px) {
+    #mainContain{
+        height: 200px !important;
+    }
+
+    #mainContain > div:nth-child(2) > h1 {
+        font-size: 1.78em;
+        margin-top: 25px; 
+    }
+
+  }
+ 

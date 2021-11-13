@@ -83,7 +83,8 @@ function CarouselSection() {
                     >
                      <a href = {item.href}>
                     
-                      <img src={item.src} alt={item.altText} width="850" height="500" />
+                      {/* <img src={item.src} alt={item.altText} width="850" height="500" /> */}
+                      <img src={item.src} alt={item.altText} />
                     
                     </a>
 

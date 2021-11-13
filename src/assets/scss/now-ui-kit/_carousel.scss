@@ -21,20 +21,52 @@
  
 
 
+#carousel > div > div > div.carousel-item.active > a > img {
+    width: 850px;
+    height: 500px;
+}
+
+#carousel > div > div > div.carousel-item-next > a > img {
+    width: 850px;
+    height: 500px;
+}
+
+
+#carousel > div > div > div.carousel-item-prev > a > img {
+    width: 850px;
+    height: 500px;
+}
 
 
 
 
 
 @media only screen and (max-width: 768px) {
-    #carousel > div > div > div.carousel-item.active > a > img{
-      
-        max-height: 250px; 
-        max-width: 300px; 
+    #carousel > div > div > div.carousel-item.active > a > img {
+        width: 250px;
+        height: 225px;
     }
+    
+    #carousel > div > div > div.carousel-item-next > a > img {
+        width: 250px;
+        height: 225px;
+    }
+    
+    
+    #carousel > div > div > div.carousel-item-prev > a > img {
+        width: 250px;
+        height: 225px;
+    }
+    
+
+
     #carousel {
         margin-top: 75px; 
     }
+
+
+
+
 
   }
  
