@@ -227,3 +227,10 @@
     padding-bottom: 20px; 
 }
  
+#social > a > div > svg > g.social-svg-mask > path {
+    opacity: 40%;
+}
+
+#social > a > div > svg > g.social-svg-mask > path:hover {
+    opacity: 100%;
+}
