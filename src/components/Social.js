@@ -22,7 +22,7 @@ return (
 
     <SocialIcon url="https://www.youtube.com/channel/UCZBxvf3wO37Ymx-mO8tPwLQ/videos" />   
 
-    <SocialIcon url="https://www.facebook.com/christopher.j.dent" />
+   
 
     <SocialIcon url="https://twitter.com/christopjdent" />
 
