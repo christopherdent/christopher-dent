@@ -21,7 +21,7 @@ return (
 
     <SocialIcon url="https://www.youtube.com/channel/UCZBxvf3wO37Ymx-mO8tPwLQ/videos" />   
 
-    <SocialIcon url="mailto: christopherdent01@gmail.com"  />
+    <SocialIcon url="mailto: christopherdent01@gmail.com" bgColor='#f0f0d6' />
 
     <SocialIcon url="https://twitter.com/christopjdent" />
 
