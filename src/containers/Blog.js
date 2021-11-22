@@ -62,7 +62,7 @@ function Blog() {
 
  
           <Container>
-          <a href = "https://christopher-dent.medium.com/">
+          <a href = "https://christopher-dent.medium.com/" target="_blank" rel="noreferrer">
             <h3 className="title">My Blog</h3>
           </a>
           

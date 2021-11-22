@@ -204,7 +204,31 @@ function Projects() {
 
         <TabPane tabId="pills1">
         <Row className="collections">
-            
+
+
+        <Col>
+                  
+                  <Card style={{ width: '18rem' }} id='proj'>
+                
+                    <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/spidey.png" />
+                
+                    <a href = "https://christopherdent.github.io/marvel-dent/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/marvel-dent" target="_blank" rel="noreferrer">Code</a>
+                   
+                    <CardBody>
+                
+                         <CardTitle>NEW!!! <br />Comic Collector!</CardTitle>
+                
+                             <CardText>
+                              I've been wanting to build an app that uses a public API for a while now and after a trip to a local comic shop a few weeks ago it was clear what API that would be.  Currently frontend only with limited functionality, but I'm too excited about this one to not share it.  Stay tuned for major improvements to what will almost certainly be my best web app yet.  
+                            </CardText>
+                 
+                     </CardBody>
+                   
+                  </Card>
+                
+                </Col>
+
+
               
               <Col>
                   
@@ -212,7 +236,7 @@ function Projects() {
                   
                       <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png" />
                   
-                      <a href = "https://christopherdent.github.io/newsletterExample/create" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
+                      <a href = "https://christopherdent.github.io/newsletterExample/customers" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
                      
                       <CardBody>
                   
