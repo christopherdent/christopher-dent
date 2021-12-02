@@ -177,7 +177,7 @@ function Projects() {
                 </Card>
                 </Col>
             
-                <Col>
+                {/* <Col>
                       <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/71IVS5%2BCJ1L._AC_SL1001_.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
                         <a href = "https://christopherdent.github.io/battleships-frontend/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/battleships-frontend" target="_blank" rel="noreferrer">Code</a>
@@ -188,7 +188,7 @@ function Projects() {
                     </CardText>
                   </CardBody>
                 </Card>
-                </Col>               
+                </Col>                */}
            </Row>
             
             </TabPane>
