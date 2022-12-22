@@ -68,9 +68,14 @@ function Projects() {
 
  
           <Container className="projContainer">
+
               <h3 className="title">Coding Projects</h3>
+              <h2>Oopsie! </h2>
+               <h3>  My databases got deleted, so most of my live apps are down except those using outside APIs only.</h3>
+              <h5>We'll find a new home for these apps soon.<br/>  For now, you can check out the video walkthroughs for each (if available), or the codebase, using the links below.</h5>
+              <br/><br/>
                 <h5 className="description">
-                  This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and continue to do all of this in my spare time.
+                  This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and did all this my spare time.  Now that I am an actual developer, I hope to get these apps back online, upgraded, and grow the library soon.
                 </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
@@ -129,7 +134,7 @@ function Projects() {
                   
                       <CardImg variant="top" src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg" />
                   
-                      <a href = "https://christopherdent.github.io/dinofinder-frontend" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dinofinder-frontend" target="_blank" rel="noreferrer">Code</a>
+                      <a href = "https://www.youtube.com/watch?v=-Cb8YUDdgC4" target="_blank" rel="noreferrer">Video Demo</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dinofinder-frontend" target="_blank" rel="noreferrer">Code</a>
                      
                       <CardBody>
                   
@@ -151,7 +156,7 @@ function Projects() {
 
                     <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://tuality.org/wp-content/uploads/2019/01/volunteer_hero_image_03.jpg" />
-                        <a href = "http://volunteermanager.herokuapp.com/" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/VolunteerManager" target="_blank" rel="noreferrer">Code</a>
+                        <a href = "https://www.youtube.com/watch?v=v6ifLuecsmA" target="_blank" rel="noreferrer">Video Demo</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/VolunteerManager" target="_blank" rel="noreferrer">Code</a>
                           <CardBody>
                             <CardTitle>Volunteer Manager</CardTitle>
                             <CardText>
@@ -167,7 +172,7 @@ function Projects() {
                       <Col>
                       <Card style={{ width: '18rem' }} id='proj'>
                         <CardImg variant="top" src="https://img1.wsimg.com/isteam/ip/61a4c061-55f8-47d5-8bd5-cb2c89e202c9/UduwYH6XvJC5VozALe9oNi-320-80.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300" />
-                        <a href = "http://polar-lake-91544.herokuapp.com/" target="_blank" rel="noreferrer"> Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dent-exoplanet-sinatra" target="blank" rel="noreferrer">Code</a>
+                        <a href = "https://www.youtube.com/watch?v=H1my0ggLFn4" target="_blank" rel="noreferrer"> Video Demo</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/dent-exoplanet-sinatra" target="blank" rel="noreferrer">Code</a>
                           <CardBody>
                             <CardTitle>Exoplanet Explorer</CardTitle>
                             <CardText> Built with the Ruby DSL Sinatra, this is a simple app for cataloguing new discoveries in astronomy, specifically planets not orbiting our own sun.  Allows for the creation of star systems and orbiting planets, including all known specifics of said planet.  Simple but fun!  Login with username guest, password guest for a quick demo.
@@ -216,7 +221,7 @@ function Projects() {
                    
                     <CardBody>
                 
-                         <CardTitle>NEW!!! <br />Comic Collector!</CardTitle>
+                         <CardTitle>Still online!<br />Comic Collector!</CardTitle>
                 
                              <CardText>
                               I've been wanting to build an app that uses a public API for a while now and after a trip to a local comic shop a few weeks ago it was clear what API that would be.  Currently frontend only with limited functionality, but I'm too excited about this one to not share it.  Stay tuned for major improvements to what will almost certainly be my best web app yet.  
@@ -236,7 +241,7 @@ function Projects() {
                   
                       <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/get-newsletter.png" />
                   
-                      <a href = "https://christopherdent.github.io/newsletterExample/customers" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
+                      <a href = "https://github.com/christopherdent/newsletterExample" target="_blank" rel="noreferrer">Code</a>
                      
                       <CardBody>
                   
@@ -244,7 +249,7 @@ function Projects() {
                   
                                <CardText>
 
-                                Been trying to teach myself some Angular in my spare time, here is the first Angular app I put together, a basic newsletter signup application with a Ruby on Rails backend. 
+                                The first Angular app I put together, a basic newsletter signup application with a Ruby on Rails backend. 
 
                               </CardText>
                    
@@ -260,7 +265,7 @@ function Projects() {
                       
                         <CardImg variant="top" src="https://cjdportfolio.s3.amazonaws.com/Screenshot+from+2021-11-06+15-02-49.png" />
               
-                        <a href = "https://christopherdent.github.io/fundraiser-fronted/index.html" target="_blank" rel="noreferrer">Live App</a> <span id='pipe'>|</span> <a href = "https://github.com/christopherdent/fundraiser-fronted" target="_blank" rel="noreferrer">Code</a>
+                         <a href = "https://github.com/christopherdent/fundraiser-fronted" target="_blank" rel="noreferrer">Code</a>
                 
                         <CardBody>
               
