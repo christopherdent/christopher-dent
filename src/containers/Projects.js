@@ -70,9 +70,9 @@ function Projects() {
           <Container className="projContainer">
 
               <h3 className="title">Coding Projects</h3>
-              <h2>Oopsie! </h2>
+              <h2>Oh dear. </h2>
                <h3>  My databases got deleted, so most of my live apps are down except those using outside APIs only.</h3>
-              <h5>We'll find a new home for these apps soon.<br/>  For now, you can check out the video walkthroughs for each (if available), or the codebase, using the links below.</h5>
+              <h5>I'm slowly moving all of these over to EC2 instances.<br/>  For now, you can check out the video walkthroughs for each (if available), or the codebase, using the links below.</h5>
               <br/><br/>
                 <h5 className="description">
                   This page showcases my coding projects from Flatiron school (cap) and a few I have completed since graduating (bulb).  I attended Flatiron while working a busy full time job and did all this my spare time.  Now that I am an actual developer, I hope to get these apps back online, upgraded, and grow the library soon.
