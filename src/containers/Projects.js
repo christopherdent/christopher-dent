@@ -55,20 +55,9 @@ function Projects() {
           <h2>Oh dear. </h2>
           <h3>
             {" "}
-            My databases got deleted, so most of my live apps are down except
-            those using outside APIs only.
+            Please note these demos are from my coding bootcamp projects and are several years old.
           </h3>
-          <h5>
-            I'm slowly moving all of these over to AWS - and honestly these were
-            boot camp projects so you are not missing much. Since making these
-            at bootcamp and then becoming an actual developer I haven't had a
-            lot of time for freelance stuff, but I hope to get some new apps up
-            here soon.
-            <br />
-            If you'd really like to see my early school projects, you can check
-            out the video walkthroughs for each (if available), or the codebase,
-            using the links below.
-          </h5>
+  
           <br />
           <br />
           <h5 className="description">
