@@ -60,13 +60,7 @@ function Projects() {
   
           <br />
           <br />
-          <h5 className="description">
-            This page showcases my coding projects from Flatiron school (cap)
-            and a few I have completed since graduating (bulb). I attended
-            Flatiron while working a busy full time job and did all this my
-            spare time. Now that I am an actual developer, I hope to get these
-            apps back online, upgraded, and grow the library soon.
-          </h5>
+
           <Row>
             <Col className="ml-auto mr-auto" md="6">
               <div className="nav-align-center">
