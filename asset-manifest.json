@@ -1,25 +1,21 @@
 {
   "files": {
-    "main.css": "/christopher-dent/static/css/main.a09448ec.chunk.css",
-    "main.js": "/christopher-dent/static/js/main.829c103d.chunk.js",
-    "main.js.map": "/christopher-dent/static/js/main.829c103d.chunk.js.map",
-    "runtime-main.js": "/christopher-dent/static/js/runtime-main.ccc2e08f.js",
-    "runtime-main.js.map": "/christopher-dent/static/js/runtime-main.ccc2e08f.js.map",
-    "static/js/2.d80593e8.chunk.js": "/christopher-dent/static/js/2.d80593e8.chunk.js",
-    "static/js/2.d80593e8.chunk.js.map": "/christopher-dent/static/js/2.d80593e8.chunk.js.map",
+    "main.css": "/christopher-dent/static/css/main.0475a336.css",
+    "main.js": "/christopher-dent/static/js/main.a37acb91.js",
+    "static/media/newsky.jpg": "/christopher-dent/static/media/newsky.b185ec314c55e7bccaca.jpg",
+    "static/media/books.gif": "/christopher-dent/static/media/books.8318b5b2576dd5e3a610.gif",
+    "static/media/ibm.gif": "/christopher-dent/static/media/ibm.ea97fc6067b1ed415e59.gif",
+    "static/media/spaceman3.gif": "/christopher-dent/static/media/spaceman3.a549d04992ab0d6e7329.gif",
+    "static/media/nucleo-outline.eot": "/christopher-dent/static/media/nucleo-outline.56814a6b7240045e1494.eot",
+    "static/media/nucleo-outline.ttf": "/christopher-dent/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+    "static/media/nucleo-outline.woff": "/christopher-dent/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
+    "static/media/nucleo-outline.woff2": "/christopher-dent/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "index.html": "/christopher-dent/index.html",
-    "static/css/main.a09448ec.chunk.css.map": "/christopher-dent/static/css/main.a09448ec.chunk.css.map",
-    "static/js/2.d80593e8.chunk.js.LICENSE.txt": "/christopher-dent/static/js/2.d80593e8.chunk.js.LICENSE.txt",
-    "static/media/books.gif": "/christopher-dent/static/media/books.8318b5b2.gif",
-    "static/media/ibm.gif": "/christopher-dent/static/media/ibm.ea97fc60.gif",
-    "static/media/newsky.jpg": "/christopher-dent/static/media/newsky.b185ec31.jpg",
-    "static/media/now-ui-kit.scss": "/christopher-dent/static/media/nucleo-outline.802141dd.woff2",
-    "static/media/spaceman3.gif": "/christopher-dent/static/media/spaceman3.a549d049.gif"
+    "main.0475a336.css.map": "/christopher-dent/static/css/main.0475a336.css.map",
+    "main.a37acb91.js.map": "/christopher-dent/static/js/main.a37acb91.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccc2e08f.js",
-    "static/js/2.d80593e8.chunk.js",
-    "static/css/main.a09448ec.chunk.css",
-    "static/js/main.829c103d.chunk.js"
+    "static/css/main.0475a336.css",
+    "static/js/main.a37acb91.js"
   ]
 }
