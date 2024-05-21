@@ -52,7 +52,6 @@ function Projects() {
 
         <Container className="projContainer">
           <h3 className="title">Coding Projects</h3>
-          <h2>Oh dear. </h2>
           <h3>
             {" "}
             Please note these demos are from my coding bootcamp projects and are several years old.
