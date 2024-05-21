@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christopher-dent/static/css/main.0475a336.css",
-    "main.js": "/christopher-dent/static/js/main.a37acb91.js",
+    "main.js": "/christopher-dent/static/js/main.2d5dae8f.js",
     "static/media/newsky.jpg": "/christopher-dent/static/media/newsky.b185ec314c55e7bccaca.jpg",
     "static/media/books.gif": "/christopher-dent/static/media/books.8318b5b2576dd5e3a610.gif",
     "static/media/ibm.gif": "/christopher-dent/static/media/ibm.ea97fc6067b1ed415e59.gif",
@@ -12,10 +12,10 @@
     "static/media/nucleo-outline.woff2": "/christopher-dent/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "index.html": "/christopher-dent/index.html",
     "main.0475a336.css.map": "/christopher-dent/static/css/main.0475a336.css.map",
-    "main.a37acb91.js.map": "/christopher-dent/static/js/main.a37acb91.js.map"
+    "main.2d5dae8f.js.map": "/christopher-dent/static/js/main.2d5dae8f.js.map"
   },
   "entrypoints": [
     "static/css/main.0475a336.css",
-    "static/js/main.a37acb91.js"
+    "static/js/main.2d5dae8f.js"
   ]
 }
