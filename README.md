@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Chris Dent's latest web app is the place to be if you want to see his recent projects, blogs, highlights and life story.  
 
 
-npm install to start
+<!-- npm install to start
 npm start to run locally
-npm run deploy to redeploy to GH Pages.
+npm run deploy to redeploy to GH Pages. -->
+
+
+### Update July 1, 2014: 
+-We have switched to Yarn.
