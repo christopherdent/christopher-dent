@@ -107,11 +107,11 @@ function Projects() {
                       src="https://adventuredinosaurs.com/wp-content/uploads/2020/07/raptor-dinosaur-habitat-adventuredinosaurs.jpg"
                     />
                     <a
-                      href="https://www.youtube.com/watch?v=-Cb8YUDdgC4"
+                      href="https://christopherdent.github.io/dinofinder-frontend"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Video Demo
+                      Live App!
                     </a>{" "}
                     <span id="pipe">|</span>{" "}
                     <a
