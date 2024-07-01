@@ -2,27 +2,15 @@ import React, { useState } from 'react';
 
 // reactstrap components
 import {
-  Button,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
-  Row,
-  Col,
-  UncontrolledTooltip
 } from "reactstrap";
 
 // core components
 
- 
- 
-
 function Blog() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => setIsOpen(!isOpen);
+    // const toggle = () => setIsOpen(!isOpen);
 
   let page = React.createRef();
 
@@ -43,9 +31,6 @@ function Blog() {
 
   return (
     <>
-    
-
-
     <div className="page-header clear-filter" filter-color="blue">
         <div
           className="page-header-image"
@@ -58,9 +43,6 @@ function Blog() {
           
         </div>
 
-
-
- 
           <Container>
           <a href = "https://christopher-dent.medium.com/" target="_blank" rel="noreferrer">
             <h3 className="title">My Blog</h3>

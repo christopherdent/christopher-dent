@@ -12,22 +12,20 @@ import {
 const items = [
   {
     href: "/christopher-dent/projects",
-    src: require("assets/img/ibm.gif").default,
+    src: "https://cjdportfolio.s3.amazonaws.com/ibm.gif",
     altText: "My Coding Projects",
     caption: "coding projects",
-    
-    
-    
+
   },
   {
     href: "/christopher-dent/about",
-    src: require("assets/img/spaceman3.gif").default,
-    altText: "About Christopher",
+    src: "https://cjdportfolio.s3.amazonaws.com/spaceman3.gif",
+    altxt: "About Christopher",
     caption: "about christopher",
   },
   {
     href: "/christopher-dent/blog",
-    src: require("assets/img/books.gif").default,
+    src: "https://cjdportfolio.s3.amazonaws.com/books.gif",
     altText: "My Blog",
     caption: "my blog",
   },

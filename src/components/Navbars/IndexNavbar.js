@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 
 // reactstrap components
-import { Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Container, Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 
 function IndexNavbar() {
   const [collapsed, setCollapsed] = useState(true);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+  // const toggleNavbar = () => setCollapsed(!collapsed);
 
 
 
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (

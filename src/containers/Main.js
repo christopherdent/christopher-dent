@@ -57,16 +57,10 @@ React.useEffect(() => {
             <h1 className="h1-seo">Christopher James Dent</h1>
           </div>
        
-          <Carousel />
-        
-        
-        
-    
+            <Carousel />
+
           </Container>
 
- 
-       
-       
            {/* </Table> */}
       </div>
 

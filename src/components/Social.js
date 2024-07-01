@@ -1,10 +1,3 @@
-
-import React from "react";
-import ReactDOM from 'react-dom';
- 
-// reactstrap components
-import { Container } from "reactstrap";
-
 //social component
  import { SocialIcon } from 'react-social-icons';
 
