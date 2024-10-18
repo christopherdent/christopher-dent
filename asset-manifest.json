@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christopher-dent/static/css/main.0475a336.css",
-    "main.js": "/christopher-dent/static/js/main.d7431342.js",
+    "main.js": "/christopher-dent/static/js/main.c924197a.js",
     "static/media/newsky.jpg": "/christopher-dent/static/media/newsky.b185ec314c55e7bccaca.jpg",
     "static/media/nucleo-outline.eot": "/christopher-dent/static/media/nucleo-outline.56814a6b7240045e1494.eot",
     "static/media/nucleo-outline.ttf": "/christopher-dent/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
@@ -9,10 +9,10 @@
     "static/media/nucleo-outline.woff2": "/christopher-dent/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "index.html": "/christopher-dent/index.html",
     "main.0475a336.css.map": "/christopher-dent/static/css/main.0475a336.css.map",
-    "main.d7431342.js.map": "/christopher-dent/static/js/main.d7431342.js.map"
+    "main.c924197a.js.map": "/christopher-dent/static/js/main.c924197a.js.map"
   },
   "entrypoints": [
     "static/css/main.0475a336.css",
-    "static/js/main.d7431342.js"
+    "static/js/main.c924197a.js"
   ]
 }
