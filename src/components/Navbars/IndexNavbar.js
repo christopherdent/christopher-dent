@@ -68,6 +68,12 @@ function IndexNavbar() {
                   <p>Blog</p>
                 </NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink href="https://drive.google.com/file/d/1zY9Ex_sjm-bMpW8TxOQA3gJXCacZJ5du/view?usp=drive_link">
+                  <p>Resume</p>
+                </NavLink>
+              </NavItem>
               
             </Nav>
        
